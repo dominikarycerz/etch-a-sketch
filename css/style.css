@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(16, 30px [col-start]);
+}
+
+.item {
+    border: 1px solid blue;
+    height: 30px
+}
+
+.hovered {
+  background-color: pink;
+}
